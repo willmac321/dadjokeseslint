@@ -1,0 +1,14 @@
+{
+  "name": "@wmac/eslint-plugin",
+  "version": "1.0.0",
+  "description": "dad jokes spelled wrong",
+  "main": "index.js",
+  "author": "wmac",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "8.43.0"
+  },
+  "scripts": {
+    "test": "node ./eslint/dad-jokes.test.js"
+  }
+}

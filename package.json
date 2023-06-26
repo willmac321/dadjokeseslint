@@ -1,17 +1,13 @@
 {
   "name": "dadjokeeslint",
   "version": "1.0.0",
-  "description": "dad jokes spelled wrong",
+  "description": "dad jokes spelled wrong example",
   "main": "example.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "author": "wmac",
   "license": "ISC",
-  "dependencies": {
-  },
   "devDependencies": {
-    "eslint-plugin-dadJokeRule": "file:./eslint",
-    "eslint": "^8.43.0"
+    "eslint": "^8.43.0",
+    "eslint-plugin-custom-rules": "file:eslint"
   }
 }

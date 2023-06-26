@@ -1,3 +1,5 @@
-const dadJokeRule = require("dadJokeRule");
-
-module.export = { dadJokeRule };
+module.exports = {
+  rules: {
+    'oops-all-dad': require('./dad-jokes'),
+  },
+}
