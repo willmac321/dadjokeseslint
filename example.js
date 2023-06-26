@@ -1,4 +1,4 @@
 function hey() {
-  const ImTest = 'test';
+  const dad = 'test';
   return ImTest;
 }
